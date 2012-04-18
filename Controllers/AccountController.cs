@@ -43,7 +43,7 @@ namespace ContosoUniversity.Controllers
                 }
                 else
                 {
-                    ModelState.AddModelError("", "The user name or password provided is incorrect.");
+                    ModelState.AddModelError("", "The user name or password provided is not correct.");
                 }
             }
 
